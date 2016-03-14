@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Personal Project</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+</head>
+<body>
+<div class="container">
+    <h1>Mixed Drink Builder</h1>
+    <h3>Discover alcohol prices and cocktail recipes.</h3>
+    <div class="row">
+        <div class="col-md-6 col-md-offset-3">
+            <!--<h2>Custom search field</h2>-->
+            <div id="custom-search-input">
+                <div class="input-group col-md-12">
+                    <input type="text" class="form-control input-lg" placeholder="Search for alcohol by name.."/>
+                    <span class="input-group-btn">
+                        <button class="btn btn-info btn-lg" type="button">
+                            <i class="glyphicon glyphicon-search"></i>
+                        </button>
+                    </span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="list">
+        <div class="list-group col-md-4 col-md-offset-2">
+            <h2>List of Alcohol Prices</h2>
+            <a href="#" class="list-group-item">First store w Price &amp; Link</a>
+            <a href="#" class="list-group-item">Second store w Price &amp; Link</a>
+            <a href="#" class="list-group-item">Third store w Price &amp; Link</a>
+            <a href="#" class="list-group-item">Fourth store w Price &amp; Link</a>
+            <a href="#" class="list-group-item">Fifth store w Price &amp; Link</a>
+            <a href="#" class="list-group-item">Sixth store w Price &amp; Link</a>
+        </div>
+        <div class="list-group col-md-4 col-md-offset-right-2">
+            <h2>List of Cocktail Recipes</h2>
+            <a href="#" class="list-group-item" data-toggle="modal" data-target="#myModal">First recipe</a>
+            <a href="#" class="list-group-item" data-toggle="modal" data-target="#myModal">Second recipe</a>
+            <a href="#" class="list-group-item" data-toggle="modal" data-target="#myModal">Third recipe</a>
+            <a href="#" class="list-group-item" data-toggle="modal" data-target="#myModal">Fourth recipe</a>
+            <a href="#" class="list-group-item" data-toggle="modal" data-target="#myModal">Fifth recipe</a>
+            <a href="#" class="list-group-item" data-toggle="modal" data-target="#myModal">Sixth recipe</a>
+        </div>
+        <!-- Modal -->
+        <div class="modal fade" id="myModal" role="dialog">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        <h4 class="modal-title">List of Ingredients</h4>
+                    </div>
+                    <div class="modal-body">
+                        <p>Ingredients</p>
+                        <ul>
+                            <li>Ingredient 1</li>
+                            <li>Ingredient 2</li>
+                            <li>Ingredient 3</li>
+                        </ul>
+                        <p>Instructions</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras pharetra est interdum libero tempor pretium. Aliquam et purus mattis, maximus orci eu, malesuada dolor.</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>

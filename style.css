@@ -1,0 +1,32 @@
+body{
+    width: 100vw;
+    height: 100vh;
+    background: url(images/oldfashioned.jpg) no-repeat center center fixed;
+    background-size: cover;
+    z-index: -1;
+}
+.container {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+h1, h2, h3{
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px black;
+    font-family: 'Martel Sans', sans-serif;
+}
+h1{
+    font-size: 80px;
+    font-weight: 800;
+}
+.row {
+    position: relative;
+    top: 5%;
+}
+
+.list-group{
+    position: relative;
+    top: 8vh;
+    text-align: center;
+}
